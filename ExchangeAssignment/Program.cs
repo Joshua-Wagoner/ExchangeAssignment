@@ -48,7 +48,6 @@ namespace ExchangeAssignment
                 //Opt out
                 else if (keyInfo.Key == ConsoleKey.O)
                 {
-                    //Console.Clear();
                     Console.WriteLine("\n" + em.GetReport());
                     optOut = true;
 
